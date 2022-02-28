@@ -44,7 +44,7 @@ service: Cost Explorer
     ]
 }
 ```
-Input : 
+Run : 
 python3 rds-inventory.py 
 
 python3 cost-explorer.py
