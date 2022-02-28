@@ -9,7 +9,9 @@ boto3
 
 Either use aws access/secret keys or execute from the ec2 with below roles
 
+```
 service: RDS
+
 {
     "Version": "2012-10-17",
     "Statement": [
@@ -41,7 +43,7 @@ service: Cost Explorer
         }
     ]
 }
-
+```
 Input : 
 python3 rds-inventory.py 
 
